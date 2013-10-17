@@ -9,6 +9,7 @@ body {
 
 header {
   padding: 10px;
+  background-color:black;
 }
 
 .brand {
@@ -16,8 +17,85 @@ header {
   font-size: 3em;
 }
 
+.brand a {
+  text-decoration: none;
+  font-weight: bold;
+  color:white;
+  top:0px;
+  margin:auto;
+}
+
+nav
+{
+    list-style-type:none;
+    color: white;
+    width: 400px;
+    float:right;
+}
+ 
+li {
+    display:inline;
+
+}
+ 
+li a {
+    text-decoration:none;
+    color:white;
+    line-height:50px;
+    padding-right:20px;
+    margin-bottom: 20px;
+}
+
+.features div {
+  background-color:white;
+  float:left;
+  display: inline-block;
+  width: 30%;
+  margin: 10px;
+  padding: 10px;
+}
+
+.features div:first-child, .features div:nth-child(2)  {
+  border-right: 2px solid gray;
+}
+
+.marketing:last-child {
+  clear:left;
+}
+
+.marketing:first-child, .marketing:last-child {
+  background-color: gray;
+  color:white;
+}
+
+/*.marketing {
+  background-color: gray;
+  color:white;
+}*/
+
+/*.features:first-child, .features:nth-child(2) {
+  border-right: 5px gray;
+}*/
+
+/*.features:nth-child(2) {
+  margin: 0px;
+  margin-top: 10px;
+  margin-left: -20px;
+  padding: 0px;
+  list-style-type: square;
+}
+
+.features:last-child {
+  margin: 0px;
+  margin-top: 10px;
+  margin-left: -20px;
+  padding: 0px;
+  list-style-type: square;
+}*/
+
 .brand a:hover {
   text-decoration: underline;
+  color: #ff0;
 }
 
 .container {
@@ -28,4 +106,12 @@ header {
 .marketing {
   padding: 10px;
   margin: 1em 0;
+}
+
+footer {
+  clear:left;
+  text-align:center;
+  background-color:black;
+  text-decoration: none;
+  color:white;
 }
